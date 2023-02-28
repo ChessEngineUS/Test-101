@@ -1,0 +1,2 @@
+docker pull lukalabs/cakechat:latest && \
+docker run --name cakechat-server -p 127.0.0.1:8080:8080 -it lukalabs/cakechat:latest bash -c "python bin/cakechat_server.py"
